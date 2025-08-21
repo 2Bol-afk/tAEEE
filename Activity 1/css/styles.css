@@ -1,0 +1,157 @@
+body {
+  background-color: lightblue;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  font-size: 17px;
+}
+h1,
+h2 {
+  text-align: center;
+  overflow-wrap: break-word;
+
+}
+#headerp {
+  text-align: center;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+
+}
+nav a {
+  padding: 10px;
+  background-color: #00509e;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+
+}
+nav a:hover {
+  background-color: darkblue;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: whitesmoke;
+}
+th,
+td {
+  border: 1px solid;
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background: grey;
+  color: white;
+}
+tr:hover {
+  background: lightblue;
+}
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid;
+}
+li:hover {
+  background: #f0f0f0; /* highlight on hover */
+}
+/* Section title */
+#officials-title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 20px 0;
+  color: #222;
+}
+
+.key-officials {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  padding: 20px;
+  justify-items: center;
+}
+
+.official-card {
+  border: 2px solid #444;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  max-width: 240px;
+}
+
+.official-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px #333;
+}
+
+
+
+.official-card .top-title {
+  font-weight: bold;
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 8px;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  text-align: center;
+}
+
+
+.official-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.official-card .bottom-name {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #006699;
+  margin-top: 8px;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+#key-officials-pres {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.president {
+  max-width: 260px;
+  background: #eef8ff;
+  border: 2px solid #005580;
+}
+#program-head{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
